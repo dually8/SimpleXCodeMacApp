@@ -11,5 +11,9 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+- (IBAction)buttonClick:(id)sender;
+@property (weak) IBOutlet NSTextField *textField;
+//- (void)keyUp:(NSEvent *)pressedEnter;
+
 
 @end
